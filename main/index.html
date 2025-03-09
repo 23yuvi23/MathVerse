@@ -1,0 +1,233 @@
+form submitted<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATHVERSE</title>
+  
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 ">
+
+<!-- Navbar -->
+<header class="  bg-gradient-to-r from-blue-400 to-purple-500 text-white p-4 fixed w-full top-0 z-20 shadow-md">
+    <nav class=" flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold">MathVerse</h1>
+        <button id="menu-toggle" class="md:hidden text-2xl focus:outline-none">☰</button>
+
+        <!-- mobile menu -->
+        <ul id="mobile-menu" class=" p-4 hidden md:flex space-x-20 flex-col md:flex-row absolute md:static 
+        top-14 left-0 w-full bg-blue-600 md:bg-transparent md:w-auto text-center md:text-left 
+        transition-transform duration-300 ease-in-out shadow-md md:shadow-none rounded-b-lg md:rounded-none">
+            <li><button onclick="scrollToSection('home')" class="block py-2 md:inline md:py-0 hover:text-gray-300">Home</button></li>
+            <li><button onclick="scrollToSection('about')" class="block py-2 md:inline md:py-0 hover:text-gray-300">About Us</button></li>
+            <li><button onclick="scrollToSection('services')" class="block py-2 md:inline md:py-0 hover:text-gray-300">Services</button></li>
+            <li><button onclick="scrollToSection('pricing')" class="block py-2 md:inline md:py-0 hover:text-gray-300">Pricing</button></li>
+            <li><button onclick="scrollToSection('contact')" class="block py-2 md:inline md:py-0 hover:text-gray-300">Contact</button></li>
+        </ul>
+    </nav>
+</header>
+  
+  <!-- about website intro -->
+  <main class="mt-16 md:p-1 lg:p-10">
+
+      <section id="home" class="flex flex-col md:flex-row items-center justify-between  p-10 rounded-lg shadow-lg ">
+          <div class="md:w-1/2 text-left ">
+              <h2 class="text-4xl md:text-5xl lg:text-[70px]  text-stone-600 font-bold">Unlock Your Potential with Expert Tutoring!</h2>
+              <p class="mt-4 text-sm md:text-base lg:text-[20px] ">Find the perfect tutor, anytime, anywhere! Whether you need help with homework, 
+                test prep, or mastering a subject, our experienced tutors are here to guide you. Book a session easily 
+                and start learning today!</p>
+                <div class="flex md:justify-start justify-center">
+                    <button class="book-session-btn mt-6 bg-purple-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700" 
+                        onclick="scrollToSection('contact')">
+                        Book a Session
+                    </button>
+                </div>
+                
+          </div>
+          <div class="relative w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
+            <img src="/assets/Studio Shodwe.gif" alt="Tutoring" 
+                class="rounded-4xl shadow-lg w-[80%] md:w-[400px] h-auto md:h-[700px] object-cover">
+        </div>
+        
+      </section>
+
+
+      <!-- aboutus -->
+      <section id="about" class=" p-10 mt-10 bg-white rounded-lg shadow-md ">
+          <h2 class="text-3xl font-bold text-stone-600 pl-10">About Us</h2>
+          <p class="mt-4 text-sm md:text-base lg:text-[20px] pl-10"><strong>Empowering Students for Academic Success</strong><br><br>
+
+            In today’s fast-paced academic world, students often need extra support to excel. Our 
+            <strong>comprehensive education solution</strong> offers expert tutoring, homework assistance, 
+            and assignment support—helping learners achieve their goals with confidence and ease.<br><br>
+        
+            <strong>📚 Personalized Tutoring</strong><br>
+            We provide <strong>one-on-one and group tutoring</strong> across various subjects, tailored to 
+            each student’s unique learning style. Our experienced tutors break down complex topics, offer 
+            problem-solving strategies, and provide practice exercises to enhance understanding and retention.<br><br>
+        
+            <strong>📝 Homework Assistance</strong><br>
+            Struggling with tough homework assignments? Our experts provide <strong>step-by-step guidance</strong>, 
+            ensuring students not only complete their tasks but also grasp the underlying concepts. We focus on 
+            <strong>building problem-solving skills</strong> and encouraging <strong>independent thinking</strong>.<br><br>
+        
+            <strong>📂 Assignment Support</strong><br>
+            From research papers to projects, we help with <strong>content structuring, research, editing, and formatting</strong>— 
+            ensuring that assignments meet academic standards and deadlines. Our goal is to empower students to submit 
+            <strong>high-quality work</strong> with confidence.<br><br>
+        
+            <strong>🏛️ Why Choose Us?</strong><br>
+            ✅ <strong>Qualified Educators:</strong> Learn from experienced teachers and subject matter experts.<br>
+            ✅ <strong>Customized Learning Plans:</strong> Sessions tailored to individual needs and academic goals.<br>
+            ✅ <strong>Flexible Scheduling:</strong> Online and in-person options to fit your routine.<br>
+            ✅ <strong>Affordable Pricing:</strong> Quality education support at competitive rates.<br><br>
+        
+            <strong>Take your learning to the next level!</strong> Whether you need help with studies, homework, or assignments, 
+            we’re here to support you <strong>every step of the way</strong>. Join us today and unlock your academic potential.</p>
+      </section>
+
+
+      <!-- services -->
+      <section id="services" class="p-10 mt-10 bg-gray-200 rounded-lg shadow-md ">
+          <h2 class="text-3xl font-bold text-stone-600 pl-10">Services Offered</h2>
+          <ul class="mt-4 text-sm md:text-base lg:text-[20px] list-image-none  pl-10">
+            
+            ✅ <strong>Expert Educators:</strong> Learn from highly experienced teachers and subject specialists who are passionate about education.<br>
+            ✅ <strong>Personalized Learning Plans:</strong> Every session is tailored to meet individual learning styles and academic goals.<br>
+            ✅ <strong>Flexible Scheduling:</strong> Study at your convenience with both online and in-person learning options.<br>
+            ✅ <strong>Affordable & Accessible:</strong> Get top-quality education support at budget-friendly rates.<br>
+            ✅ <strong>Home Tutoring:</strong> Tutoring home work assignment,grade and subject exams<br>
+        
+          </ul>
+      </section>
+
+      <!-- Pricing -->
+<section id="pricing" class="p-10 mt-10 bg-white rounded-lg shadow-md">
+    <h2 class="text-3xl font-bold text-stone-600 pl-10">Pricing & Packages</h2>
+    <p class="mt-4 text-sm md:text-base lg:text-[20px] pl-10">
+        1️⃣ Affordable Plans for Every Learner <br>
+        ✌️ Pay-per-session, monthly, or discounted packages available! <br>
+        🆓 Try a free trial session and experience the difference! <br> 
+    </p> 
+    <p class="mt-4 text-sm md:text-base lg:text-[20px] pl-10 text-red-600 font-semibold">
+        For pricing details, please fill out the form in the <a href="#contactUs" class="text-blue-600 underline">Contact Us</a> section, and our team will reach out to you soon.
+    </p>
+</section>
+
+
+<!-- Teacher Directory -->
+<div class="max-w-6xl mx-auto">
+    <h1 id="teacherDirectory" class="text-3xl font-bold text-center mb-6">Teacher Directory</h1>
+    <div class="flex gap-4 mb-6">
+        <select id="board" class="p-2 border rounded w-full">
+            <option value="">All Boards</option>
+            <option value="CBSE">CBSE</option>
+            <option value="IB">IB</option>
+            <option value="NIOS">NIOS</option>
+            <option value="IGCSE">IGCSE</option>
+        </select>
+        <select id="class" class="p-2 border rounded w-full">
+            <option value="">All Classes</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <select id="subject" class="p-2 border rounded w-full">
+            <option value="">All Subjects</option>
+            <option value="Maths">Maths</option>
+            <option value="Accounts">Accounts</option>
+            <option value="CS/IT">CS/IT</option>
+        </select>
+    </div>
+    <div id="teacherCards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</div>
+
+
+<!-- contact us form -->
+
+<div id="contactUs" class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold text-center mb-4">Contact Us</h2>
+    <form action="mailto:mathverseindia@gmail.com" method="post"
+    id="contactForm" class="space-y-4">
+    
+        <!-- Name -->
+        <div>
+            <label for="studentName" class="block font-medium">Your Name</label>
+            <input type="text" id="studentName" name="name" placeholder="Enter your full name"
+                class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <p id="nameError" class="text-red-600 text-sm mt-1"></p>
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="studentEmail" class="block font-medium">Your Email</label>
+            <input type="email" id="studentEmail" name="email" placeholder="Enter your email"
+                class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <p id="emailError" class="text-red-600 text-sm mt-1"></p>
+        </div>
+
+        <!-- Class -->
+        <div>
+            <label for="studentClass" class="block font-medium">Class</label>
+            <select id="studentClass" name="class" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="">Select Class</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+                <option value="11">Class 11</option>
+                <option value="12">Class 12</option>
+            </select>
+            <p id="classError" class="text-red-600 text-sm mt-1"></p>
+        </div>
+
+        <!-- Board -->
+        <div>
+            <label for="studentBoard" class="block font-medium">Board</label>
+            <select id="studentBoard" name="board" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="">Select Board</option>
+                <option value="IGCSE">IGCSE</option>
+                <option value="CBSE">CBSE</option>
+                <option value="NIOS">NIOS</option>
+                <option value="IB">IB</option>
+            </select>
+            <p id="boardError" class="text-red-600 text-sm mt-1"></p>
+        </div>
+
+        <!-- Subject -->
+        <div>
+            <label for="studentSubject" class="block font-medium">Subject</label>
+            <input type="text" id="studentSubject" name="subject" placeholder="Enter your subject"
+                class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <p id="subjectError" class="text-red-600 text-sm mt-1"></p>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+            Submit
+        </button>
+
+    </form>
+</div>
+
+    <!-- Foooter -->
+    <footer class="bg-white py-4 mt-7">
+        
+        <div class="max-w-screen-xl mx-auto text-center text-gray-500 text-2xl font-bold mt-4 ">
+            Contact us on :)
+        </div>
+        <div class="max-w-screen-xl mx-auto text-center text-gray-500">
+            <p class="text-blue-600 hover:underline">mathverseindia@gmail.com</p>
+        </div>
+        <div class="max-w-screen-xl mx-auto text-center text-gray-500">
+            <p class="text-blue-600 hover:underline">7830269800</p>
+        </div>
+        <div class="max-w-screen-xl mx-auto text-center text-gray-500">
+            © 2025 MathVerse. All rights reserved.
+        </div>
+    </footer>
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
