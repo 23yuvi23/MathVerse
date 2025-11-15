@@ -44,16 +44,16 @@ document.querySelectorAll("nav button").forEach(button => {
 
 // Teacher Data
 const teachers = [
-    { name: "John Doe", board: "CBSE", class: "10", subject: "Maths", experience: "5 Years", image: "assets/teacher1.jpeg" },
-    { name: "Jane Smith", board: "IB", class: "12", subject: "Accounts", experience: "8 Years", image: "assets/teacher2.jpeg" },
-    { name: "Alice Brown", board: "NIOS", class: "9", subject: "CS/IT", experience: "6 Years", image: "assets/teacher3.jpeg" },
-    { name: "Michael Lee", board: "IGCSE", class: "11", subject: "Maths", experience: "7 Years", image: "assets/teacher4.jpeg" },
-    { name: "Sara Wilson", board: "CBSE", class: "10", subject: "Accounts", experience: "5 Years", image: "assets/teacher5.jpeg" },
-    { name: "Robert Johnson", board: "IB", class: "12", subject: "CS/IT", experience: "10 Years", image: "assets/teacher6.jpeg" },
-    { name: "Emily Davis", board: "NIOS", class: "9", subject: "Maths", experience: "4 Years", image: "assets/teacher7.jpeg" },
-    { name: "Chris Miller", board: "IGCSE", class: "11", subject: "Accounts", experience: "6 Years", image: "assets/teacher8.jpeg" },
-    { name: "Sophia Martinez", board: "CBSE", class: "12", subject: "CS/IT", experience: "9 Years", image: "assets/teacher9.jpeg" },
-    { name: "Daniel Clark", board: "IB", class: "10", subject: "Maths", experience: "3 Years", image: "assets/teacher10.jpeg" },
+    { name: "John Doe", board: "CBSE", class: "10", subject: "Maths", experience: "5 Years", image: "/public/assets/teacher1.jpeg" },
+    { name: "Jane Smith", board: "IB", class: "12", subject: "Accounts", experience: "8 Years", image: "/public/assets/teacher2.jpg" },
+    { name: "Alice Brown", board: "NIOS", class: "9", subject: "CS/IT", experience: "6 Years", image: "/public/assets/teacher3.jpg" },
+    { name: "Michael Lee", board: "IGCSE", class: "11", subject: "Maths", experience: "7 Years", image: "/public/assets/teacher4.jpg" },
+    { name: "Sara Wilson", board: "CBSE", class: "10", subject: "Accounts", experience: "5 Years", image: "/public/assets/teacher5.jpg" },
+    { name: "Robert Johnson", board: "IB", class: "12", subject: "CS/IT", experience: "10 Years", image: "/public/assets/teacher6.jpg" },
+    { name: "Emily Davis", board: "NIOS", class: "9", subject: "Maths", experience: "4 Years", image: "/public/assets/teacher7.jpg" },
+    { name: "Chris Miller", board: "IGCSE", class: "11", subject: "Accounts", experience: "6 Years", image: "/public/assets/teacher8.jpg" },
+    { name: "Sophia Martinez", board: "CBSE", class: "12", subject: "CS/IT", experience: "9 Years", image: "/public/assets/teacher9.jpg" },
+    { name: "Daniel Clark", board: "IB", class: "10", subject: "Maths", experience: "3 Years", image: "/public/assets/teacher10.png" },
 
     // Adding Dr. Komal Choudhary
     { 
@@ -62,7 +62,7 @@ const teachers = [
         class: "10 11 12 O, AS, A level", 
         subject: "Maths (Calculus, Algebra, Statistics and Probability, Operation Research)", 
         experience: "16 Years", 
-        image: "assets/teacher11.jpeg" 
+        image: "/public/assets/teacher11.png" 
     }
 
 ];
